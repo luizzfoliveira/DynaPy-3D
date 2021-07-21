@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TLCD Optimization</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0" colspan="2">
+      <widget class="QStackedWidget" name="tlcdStackedWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page_8">
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="contractionTlcdDialogLineEdit">
+           <property name="placeholderText">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_29">
+           <property name="text">
+            <string>Coef. of Contraction:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="amountTlcdDialogLineEdit">
+           <property name="placeholderText">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="directionTlcdDialogComboBox">
+           <item>
+            <property name="text">
+             <string>x</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>y</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_30">
+           <property name="text">
+            <string>Amount:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_33">
+           <property name="text">
+            <string>Position:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_35">
+           <property name="text">
+            <string>Direction:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="positionTlcdDialogLineEdit">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="placeholderText">
+            <string>Last</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Mass Percentage: (%)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="massPercentageDialogLineEdit">
+           <property name="placeholderText">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_4">
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_42">
+           <property name="text">
+            <string>Direction</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Position</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>Diameter: (cm)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLineEdit" name="positionPtlcdDialogLineEdit">
+           <property name="placeholderText">
+            <string>Last</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_37">
+           <property name="text">
+            <string>Coef. of Contraction</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="gasHeightPtlcdDialogLineEdit">
+           <property name="placeholderText">
+            <string>40</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QComboBox" name="directionPtlcdDialogComboBox">
+           <item>
+            <property name="text">
+             <string>x</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>y</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_36">
+           <property name="text">
+            <string>Amount</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLineEdit" name="contractionPtlcdDialogLineEdit">
+           <property name="placeholderText">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QLabel" name="label_40">
+           <property name="text">
+            <string>Gas Height(cm)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="diameterPtlcdDialogLineEdit">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string>30</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLineEdit" name="amountPtlcdDialogLineEdit">
+           <property name="placeholderText">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Mass Percentage: (%)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QLineEdit" name="massPercentageDialogLineEdit_2">
+           <property name="placeholderText">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>TLCD Type</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="tlcdTypeDialogComboBox">
+       <item>
+        <property name="text">
+         <string>Basic</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pressurized</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
